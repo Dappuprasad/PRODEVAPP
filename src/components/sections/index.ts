@@ -1,0 +1,10 @@
+export { default as HeroSection } from "./HeroSection";
+export { default as VideoTestimonials } from "./VideoTestimonials";
+export { default as BackedBy } from "./BackedBy";
+export { default as HowItWorks } from "./HowItWorks";
+export { default as ProjectsCarousel } from "./ProjectsCarousel";
+export { default as OurProcess } from "./OurProcess";
+export { default as ScrollingLogos } from "./ScrollingLogos";
+export { default as Testimonials } from "./Testimonials";
+export { default as FAQ } from "./FAQ";
+export { default as Contact } from "./Contact";
