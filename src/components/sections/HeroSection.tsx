@@ -9,7 +9,7 @@ const HeroSection: React.FC = () => (
       </h1>
       <div className="relative inline-block mx-auto mb-12">
         <img
-          src="https://byldd.com/assets/images/techStack/hero-text-bulb.png"
+          src="/images/herosectionimage.png"
           alt="Idea Doodle"
           className="max-w-xs md:max-w-sm mx-auto"
         />
@@ -19,31 +19,45 @@ const HeroSection: React.FC = () => (
         flexible product team.
       </p>
       <div className="relative h-80 sm:h-96 w-full max-w-4xl mx-auto">
-        {/* Phone mockups clustered as per reference HTML */}
+        {/* Phone mockups with enhanced popout effects */}
         <img
-          src="https://byldd.com/assets/images/png-logo/5waf.webp"
+          src="/images/appscreen1.png"
           alt="App Screenshot 3"
-          className="absolute top-[10%] left-1/2 transform -translate-x-1/2 h-64 sm:h-72 rounded-2xl shadow-lg z-20"
+          className="absolute top-[10%] left-1/2 transform -translate-x-1/2 h-64 sm:h-72 rounded-2xl shadow-2xl z-20 
+                     animate-float hover:scale-110 hover:shadow-3xl transition-all duration-300 
+                     hover:rotate-1 cursor-pointer filter hover:brightness-110"
         />
         <img
-          src="https://byldd.com/assets/images/png-logo/6aef.webp"
+          src="/images/appscreen2.png"
           alt="App Screenshot 2"
-          className="absolute top-[40%] left-[37%] transform -translate-x-1/2 h-60 sm:h-64 rounded-2xl shadow-lg z-10"
+          className="absolute top-[40%] left-[37%] transform -translate-x-1/2 h-60 sm:h-64 rounded-2xl shadow-xl z-10
+                     animate-float-delayed hover:scale-105 hover:shadow-2xl transition-all duration-300 
+                     hover:-rotate-2 cursor-pointer filter hover:brightness-105"
+          style={{ animationDelay: "0.5s" }}
         />
         <img
-          src="https://byldd.com/assets/images/png-logo/4gs.webp"
+          src="/images/appscreen3.png"
           alt="App Screenshot 4"
-          className="absolute top-[40%] left-[63%] transform -translate-x-1/2 h-60 sm:h-64 rounded-2xl shadow-lg z-10"
+          className="absolute top-[40%] left-[63%] transform -translate-x-1/2 h-60 sm:h-64 rounded-2xl shadow-xl z-10
+                     animate-float-delayed hover:scale-105 hover:shadow-2xl transition-all duration-300 
+                     hover:rotate-2 cursor-pointer filter hover:brightness-105"
+          style={{ animationDelay: "1s" }}
         />
         <img
-          src="https://byldd.com/assets/images/png-logo/OnePlus%207T%20Pro%205G.webp"
+          src="/images/appscreen4.png"
           alt="App Screenshot 1"
-          className="absolute top-[53%] left-[25%] transform -translate-x-1/2 h-56 sm:h-60 rounded-2xl shadow-md z-0"
+          className="absolute top-[53%] left-[25%] transform -translate-x-1/2 h-56 sm:h-60 rounded-2xl shadow-lg z-0
+                     animate-float-slow hover:scale-105 hover:shadow-xl transition-all duration-300 
+                     hover:-rotate-1 cursor-pointer filter hover:brightness-105"
+          style={{ animationDelay: "1.5s" }}
         />
         <img
-          src="https://byldd.com/assets/images/png-logo/3te.webp"
+          src="/images/appscreen5.png"
           alt="App Screenshot 5"
-          className="absolute top-[53%] left-[75%] transform -translate-x-1/2 h-56 sm:h-60 rounded-2xl shadow-md z-0"
+          className="absolute top-[53%] left-[75%] transform -translate-x-1/2 h-56 sm:h-60 rounded-2xl shadow-lg z-0
+                     animate-float-slow hover:scale-105 hover:shadow-xl transition-all duration-300 
+                     hover:rotate-1 cursor-pointer filter hover:brightness-105"
+          style={{ animationDelay: "2s" }}
         />
       </div>
     </Container>

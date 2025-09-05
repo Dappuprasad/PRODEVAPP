@@ -6,7 +6,7 @@ A modern, responsive Next.js application for a product development services comp
 
 - **Responsive Design**: Fully responsive layout that works on all devices
 - **Modern UI**: Built with Tailwind CSS for a clean, professional look
-- **Interactive Components**: 
+- **Interactive Components**:
   - Project carousel with navigation
   - FAQ accordion sections
   - Animated scrolling logos
@@ -38,17 +38,20 @@ src/
 ## Getting Started
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd productdevelopmentservices
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Run the development server:
+
 ```bash
 npm run dev
 ```
